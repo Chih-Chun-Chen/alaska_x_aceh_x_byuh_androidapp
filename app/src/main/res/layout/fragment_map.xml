@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FA9EE"
+    tools:context=".MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map Page"
+        android:textSize="26dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/LibraryButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:text="Library"
+        android:textColor="#FFFFFF"
+        android:background="#00BCD4"
+        android:drawablePadding="5dp"
+        />
+
+    <Button
+        android:id="@+id/HospitalButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="150dp"
+        android:text="Hospital"
+        android:textColor="#FFFFFF"
+        android:background="#00BCD4"
+        android:drawablePadding="5dp"
+        />
+
+</FrameLayout>
