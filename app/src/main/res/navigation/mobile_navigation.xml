@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/profile"
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.MapFragment"
-        android:label="Profile"
+        android:label="Map"
         tools:layout="@layout/fragment_map" />
 
     <fragment

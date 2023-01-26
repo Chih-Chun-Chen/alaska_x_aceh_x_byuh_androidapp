@@ -29,12 +29,15 @@
         />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Library_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="68dp"
-        tools:src="@drawable/library" />
+        android:src="@drawable/library"
+        android:visibility="visible"
+        />
+
 
     <!-- Hospital Button -->
     <Button
@@ -47,6 +50,16 @@
         android:textColor="#FFFFFF"
         android:background="#00BCD4"
         android:drawablePadding="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/Hospital_ImageView"
+        android:layout_width="150dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/library"
+        android:visibility="visible"
         />
 
 </FrameLayout>
