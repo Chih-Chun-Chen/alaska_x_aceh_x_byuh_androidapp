@@ -25,6 +25,6 @@ public class MainSplashScreen extends AppCompatActivity {
                 finish();
             }
         };
-        mHandler.postDelayed(mRunnable, 5000);
+        mHandler.postDelayed(mRunnable, 2000);
     }
 }
