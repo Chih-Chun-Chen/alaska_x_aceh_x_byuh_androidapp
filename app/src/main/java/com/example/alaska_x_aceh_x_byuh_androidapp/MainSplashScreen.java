@@ -22,15 +22,9 @@ public class MainSplashScreen extends AppCompatActivity {
             public void run() {
                 Intent tent = new Intent(MainSplashScreen.this, MainActivity.class);
                 startActivity(tent);
-<<<<<<< HEAD
                 finish();
             }
         };
-        mHandler.postDelayed(mRunnable, 2000);
-=======
-            }
-        };
         mHandler.postDelayed(mRunnable, 5000);
->>>>>>> origin/main
     }
 }
