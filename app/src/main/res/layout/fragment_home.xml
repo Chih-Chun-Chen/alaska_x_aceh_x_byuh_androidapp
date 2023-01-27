@@ -21,6 +21,5 @@
             android:textColor="#FF0000"
             android:background="@color/purple_200"
             android:layout_gravity="center"/>
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

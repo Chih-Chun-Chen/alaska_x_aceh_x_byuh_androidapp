@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,58 +9,69 @@
     tools:context=".MapFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Map Page"
-        android:textSize="26dp"
-        android:layout_gravity="center"/>
 
     <!-- Library Button -->
+
+    <!-- Hospital Button -->
+
     <Button
         android:id="@+id/LibraryButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="150dp"
-        android:text="Library"
-        android:textColor="#FFFFFF"
         android:background="#00BCD4"
         android:drawablePadding="5dp"
-        />
+        android:text="Library"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/Library_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="68dp"
         android:src="@drawable/library"
         android:visibility="visible"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        tools:ignore="MissingConstraints" />
 
-
-    <!-- Hospital Button -->
     <Button
         android:id="@+id/HospitalButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="234dp"
-        android:layout_marginTop="150dp"
-        android:text="Hospital"
-        android:textColor="#FFFFFF"
         android:background="#00BCD4"
         android:drawablePadding="5dp"
-        />
+        android:text="Hospital"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/Hospital_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
-        android:layout_marginStart="234dp"
-        android:layout_marginTop="68dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        tools:ignore="MissingConstraints" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

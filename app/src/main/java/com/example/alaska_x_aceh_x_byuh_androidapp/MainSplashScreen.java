@@ -5,26 +5,23 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.window.SplashScreen;
 
 public class MainSplashScreen extends AppCompatActivity {
-
-    private Handler mHandler;
-    private Runnable mRunnable;
+    private static int SPLASH_TIME_OUT = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-        mHandler = new Handler();
-        mRunnable = new Runnable() {
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent tent = new Intent(MainSplashScreen.this, MainActivity.class);
-                startActivity(tent);
+                Intent intent = new Intent(MainSplashScreen.this, MainActivity.class);
+                startActivity(intent);
                 finish();
             }
-        };
-        mHandler.postDelayed(mRunnable, 2000);
+        }, SPLASH_TIME_OUT);
     }
+
 }
