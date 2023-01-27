@@ -14,19 +14,15 @@
         android:theme="@style/Theme.Alaska_X_ACEH_X_BYUH_AndroidApp"
         tools:targetApi="31">
         <activity
-            android:name="MainSplashScreen"
-            android:theme="@style/SplashStyle"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
+
 </manifest>

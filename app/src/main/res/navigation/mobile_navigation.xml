@@ -22,5 +22,4 @@
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.SettingsFragment"
         android:label="Settings"
         tools:layout="@layout/fragment_settings" />
-
 </navigation>
