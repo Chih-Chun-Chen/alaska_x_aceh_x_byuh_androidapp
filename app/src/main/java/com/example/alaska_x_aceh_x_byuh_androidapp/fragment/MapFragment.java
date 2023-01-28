@@ -1,4 +1,4 @@
-package com.example.alaska_x_aceh_x_byuh_androidapp.Activity;
+package com.example.alaska_x_aceh_x_byuh_androidapp.fragment;
 
 import android.os.Bundle;
 
