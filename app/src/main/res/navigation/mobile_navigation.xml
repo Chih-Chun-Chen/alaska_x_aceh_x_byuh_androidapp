@@ -26,5 +26,5 @@
         android:id="@+id/mainSplashScreen"
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Activity.MainSplashScreen"
         android:label="activity_main_splash_screen"
-        tools:layout="@layout/activity_main_splash_screen" />
+        tools:layout="@layout/activity_splash_screen" />
 </navigation>
