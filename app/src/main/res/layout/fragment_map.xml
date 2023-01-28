@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7FA9EE"
-    tools:context=".MapFragment">
+    tools:context=".Activity.MapFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

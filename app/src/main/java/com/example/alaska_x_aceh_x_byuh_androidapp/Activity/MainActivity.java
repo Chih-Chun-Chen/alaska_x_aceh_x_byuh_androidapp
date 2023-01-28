@@ -1,7 +1,8 @@
-package com.example.alaska_x_aceh_x_byuh_androidapp;
+package com.example.alaska_x_aceh_x_byuh_androidapp.Activity;
 
 import android.os.Bundle;
 
+import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
