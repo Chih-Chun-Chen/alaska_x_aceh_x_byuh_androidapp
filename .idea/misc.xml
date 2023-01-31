@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../alaska_x_aceh_x_byuh_androidapp/app/src/main/res/drawable/home_button_shape.xml" value="0.1555" />
+        <entry key="../alaska_x_aceh_x_byuh_androidapp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/jimmy/AndroidStudioProjects/alaska_x_aceh_x_byuh_androidapp/app/src/main/res/drawable/homepage_button_shape.xml" value="0.112" />
         <entry key="..\:/Users/jimmy/AndroidStudioProjects/alaska_x_aceh_x_byuh_androidapp/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.112" />
         <entry key="..\:/Users/jimmy/AndroidStudioProjects/alaska_x_aceh_x_byuh_androidapp/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.112" />

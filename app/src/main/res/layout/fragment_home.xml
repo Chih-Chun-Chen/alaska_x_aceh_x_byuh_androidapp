@@ -16,9 +16,9 @@
             android:id="@+id/Button"
             android:layout_width="328dp"
             android:layout_height="104dp"
+            android:background="@drawable/home_button_shape"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:background="@drawable/home_button_shape"
             android:text="211"
             android:textColor="#FF0000" />
     </LinearLayout>
