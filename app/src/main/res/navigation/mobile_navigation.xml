@@ -3,28 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    android:label="Splash_Screen"
+    app:startDestination="@id/Home">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/Home"
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/profile"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.fragment.MapFragment"
+        android:id="@+id/Map"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.ui.map.MapFragment"
         android:label="Map"
         tools:layout="@layout/fragment_map" />
 
     <fragment
-        android:id="@+id/settings"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.fragment.SettingsFragment"
-        android:label="Settings"
-        tools:layout="@layout/fragment_settings" />
+        android:id="@+id/Profile"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/mainSplashScreen"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Activity.MainSplashScreen"
+        android:id="@+id/SplashScreen"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Activity.SplashScreenActivity"
         android:label="activity_main_splash_screen"
         tools:layout="@layout/activity_splash_screen" />
 </navigation>
