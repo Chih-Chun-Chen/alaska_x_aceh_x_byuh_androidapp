@@ -6,12 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".Activity.ShelterActivity">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+    <!-- Shelter Button1 -->
+
+    <!-- Shelter Button2 -->
+
+    <Button
+        android:id="@+id/ShelterButton1"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="356dp" />
+        android:background="#00BCD4"
+        android:drawablePadding="5dp"
+        android:text="Shelter1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Library_ImageView"
+        android:layout_width="150dp"
+        android:layout_height="83dp"
+        android:src="@drawable/library"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/ShelterButton2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:drawablePadding="5dp"
+        android:text="Shelter2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Hospital_ImageView"
+        android:layout_width="150dp"
+        android:layout_height="83dp"
+        android:src="@drawable/hospital"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
