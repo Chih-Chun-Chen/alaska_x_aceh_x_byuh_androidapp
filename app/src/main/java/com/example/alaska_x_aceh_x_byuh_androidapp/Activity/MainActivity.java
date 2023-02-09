@@ -1,6 +1,9 @@
 package com.example.alaska_x_aceh_x_byuh_androidapp.Activity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -33,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
+        Button button_shelter = findViewById(R.id.button_shelter);
+        button_shelter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this,ShelterActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

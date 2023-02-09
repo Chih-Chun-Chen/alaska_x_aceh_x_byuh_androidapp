@@ -28,4 +28,9 @@
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Activity.SplashScreenActivity"
         android:label="activity_main_splash_screen"
         tools:layout="@layout/activity_splash_screen" />
+    <activity
+        android:id="@+id/shelterActivity"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Activity.ShelterActivity"
+        android:label="activity_shelter"
+        tools:layout="@layout/activity_shelter" />
 </navigation>

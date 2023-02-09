@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CBEAEA"
+    android:background="#FFFFFF"
     tools:context=".ui.home.HomeFragment">
 
     <LinearLayout
@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/Button"
+            android:id="@+id/Button_211"
             android:layout_width="328dp"
             android:layout_height="104dp"
             android:background="@drawable/home_button_shape"
@@ -21,5 +21,15 @@
             android:layout_marginTop="40dp"
             android:text="211"
             android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/button_shelter"
+            android:layout_width="328dp"
+            android:layout_height="104dp"
+            android:background="@drawable/home_button_shape"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Find A shelter"
+            android:textColor="#00BCD4" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
