@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D3D3"
+    android:background="#d3d3d3"
     tools:context=".ui.map.MapFragment">
 
     <!-- Name -->
@@ -22,6 +21,8 @@
         app:layout_constraintVertical_bias="0.023"
         tools:ignore="MissingConstraints" />
 
+    <!-- Phone Number -->
+
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="357dp"
@@ -35,7 +36,6 @@
         app:layout_constraintVertical_bias="0.082"
         tools:ignore="MissingConstraints" />
 
-    <!-- Phone Number -->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="135dp"
@@ -105,6 +105,7 @@
         app:layout_constraintVertical_bias="0.513"
         tools:ignore="MissingConstraints" />
 
+    <!-- Submit Button -->
     <EditText
         android:id="@+id/editLocation"
         android:layout_width="300dp"
@@ -113,18 +114,18 @@
         android:inputType="textMultiLine"
         android:maxLines="5"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.58"
         tools:ignore="MissingConstraints" />
 
-    <!-- Submit Button -->
     <Button
         android:id="@+id/button"
         android:layout_width="330dp"
         android:layout_height="68dp"
+        android:background="#E99319"
         android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -132,7 +133,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.847"
-        android:background="#E99319"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
