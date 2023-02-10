@@ -7,8 +7,6 @@
     tools:context=".Home.Two_One_OneActivity">
 
     <!-- Intro about 2-1-1 -->
-
-    <!-- Time Icon -->
     <TextView
         android:id="@+id/textView_211"
         android:layout_width="360dp"
@@ -25,8 +23,7 @@
         app:layout_constraintVertical_bias="0.106"
         tools:ignore="MissingConstraints" />
 
-    <!-- Link -->
-
+    <!-- Time Icon -->
     <TextView
         android:id="@+id/textView_timeicon"
         android:layout_width="350dp"
@@ -45,6 +42,7 @@
         app:layout_constraintVertical_bias="0.3"
         tools:ignore="MissingConstraints" />
 
+    <!-- Link -->
     <TextView
         android:id="@+id/textView_link"
         android:layout_width="300dp"
@@ -61,6 +59,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Call Now Button -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="328dp"
+        android:layout_height="104dp"
+        android:text="Call Now"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
