@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Alaska_X_ACEH_X_BYUH_AndroidApp"
         tools:targetApi="31">
         <activity
+            android:name=".Home.Two_One_OneActivity"
+            android:exported="false" />
+        <activity
             android:name=".Home.ShelterActivity"
             android:exported="false" />
         <activity
