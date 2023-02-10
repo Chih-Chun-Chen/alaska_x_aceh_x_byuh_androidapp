@@ -14,23 +14,23 @@
 
     <fragment
         android:id="@+id/Map"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.ui.map.MapFragment"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Map.MapFragment"
         android:label="Map"
         tools:layout="@layout/fragment_map" />
 
     <fragment
         android:id="@+id/Profile"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.ui.profile.ProfileFragment"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/SplashScreen"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Activity.SplashScreenActivity"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Splash.SplashScreenActivity"
         android:label="activity_main_splash_screen"
         tools:layout="@layout/activity_splash_screen" />
     <activity
         android:id="@+id/shelterActivity"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Activity.ShelterActivity"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Home.ShelterActivity"
         android:label="activity_shelter"
         tools:layout="@layout/activity_shelter" />
 </navigation>

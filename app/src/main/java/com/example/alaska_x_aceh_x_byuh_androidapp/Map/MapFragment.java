@@ -1,4 +1,4 @@
-package com.example.alaska_x_aceh_x_byuh_androidapp.ui.map;
+package com.example.alaska_x_aceh_x_byuh_androidapp.Map;
 
 import android.os.Bundle;
 

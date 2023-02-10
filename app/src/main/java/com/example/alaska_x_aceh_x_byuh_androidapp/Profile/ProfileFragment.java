@@ -1,4 +1,4 @@
-package com.example.alaska_x_aceh_x_byuh_androidapp.ui.profile;
+package com.example.alaska_x_aceh_x_byuh_androidapp.Profile;
 
 import android.os.Bundle;
 

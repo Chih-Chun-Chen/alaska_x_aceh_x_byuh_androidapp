@@ -7,12 +7,12 @@
         android:title="@string/title_home" />
     <item
         android:id="@+id/Map"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.ui.map.MapFragment"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Map.MapFragment"
         android:icon="@drawable/map_icon"
         android:title="Map" />
     <item
         android:id="@+id/Profile"
-        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.ui.profile.ProfileFragment"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Profile.ProfileFragment"
         android:icon="@drawable/profile_icon"
         android:title="Profile" />
 
