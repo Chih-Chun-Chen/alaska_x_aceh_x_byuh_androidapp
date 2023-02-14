@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ShelterActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MainActivity.this,ShelterActivity.class);
+                Intent intent = new Intent(MainActivity.this, ShelterActivity.class);
                 startActivity(intent);
             }
         });
