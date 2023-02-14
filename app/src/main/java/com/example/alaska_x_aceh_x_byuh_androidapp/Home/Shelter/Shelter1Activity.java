@@ -13,30 +13,50 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Shelter1Activity extends AppCompatActivity implements OnMapReadyCallback {
+import android.os.Bundle;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import androidx.appcompat.app.AppCompatActivity;
 
-    private MapView mapView1;
-    private GoogleMap googleMap;
+public class Shelter1Activity extends AppCompatActivity {
+
+    private WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shelter1);
 
-        mapView1 = findViewById(R.id.mapView1);
-        mapView1.onCreate(savedInstanceState);
-        mapView1.getMapAsync(this);
+        // Get a reference to the WebView element
+        webView = findViewById(R.id.web_view);
+
+        // Enable JavaScript support in the WebView
+        webView.getSettings().setJavaScriptEnabled(true);
+
+        // Load a web page into the WebView
+        webView.loadUrl("https://goo.gl/maps/k8khWuivEvESkx1s8");
+
+        // Set up a custom WebViewClient to handle page loading events
+        webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                // Set the activity title to the web page title
+                setTitle(view.getTitle());
+            }
+        });
     }
 
     @Override
-    public void onMapReady(GoogleMap map) {
-        this.googleMap = map;
-
-        LatLng location = new LatLng(21.633169,-157.912135);
-        googleMap.addMarker(new MarkerOptions().position(location).title("Googleplex"));
-        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(location, 15.0f));
+    public void onBackPressed() {
+        // Check if the WebView can go back
+        if (webView.canGoBack()) {
+            // Go back in the WebView history
+            webView.goBack();
+        } else {
+            // Otherwise, let the default behavior occur (finish the activity)
+            super.onBackPressed();
+        }
     }
-
-    // ... other lifecycle methods ...
 }
+
 

@@ -6,15 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".Home.Shelter.Shelter1Activity">
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView1"
-        android:layout_width="390dp"
-        android:layout_height="182dp"
+    <!-- WebView to display web content -->
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="400dp"
+        android:layout_height="426dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.134"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <TextView
+        android:id="@+id/textView_BYUH"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Brigham Young University-Hawaii"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_timeicon"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/icon_time"
+        android:gravity="center"
+        android:text="Monday – Friday 8:30 a.m. – 5:30 p.m."
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
