@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/Home"
         android:icon="@drawable/home_icon"
-        android:title="@string/title_home" />
+        android:title="@string/title_home"
+        app:tint="#FFEB921A" />
+
     <item
         android:id="@+id/Map"
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Map.MapFragment"
         android:icon="@drawable/map_icon"
-        android:title="Map" />
+        android:title="Map"
+        app:tint="#FFEB921A" />
+
     <item
         android:id="@+id/Profile"
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Profile.ProfileFragment"
         android:icon="@drawable/profile_icon"
-        android:title="Profile" />
+        android:title="Profile"
+        app:tint="#FFEB921A" />
 
 </menu>
