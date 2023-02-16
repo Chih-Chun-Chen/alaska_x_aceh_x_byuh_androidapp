@@ -20,6 +20,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:text="211"
+            android:textSize="35sp"
             android:textColor="#FF0000" />
 
         <Button
@@ -30,6 +31,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:text="Find A shelter"
+            android:textSize="35sp"
             android:textColor="#00BCD4" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
