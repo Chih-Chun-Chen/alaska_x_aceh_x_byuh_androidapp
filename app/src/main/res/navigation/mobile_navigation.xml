@@ -33,4 +33,9 @@
         android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ShelterActivity"
         android:label="activity_shelter"
         tools:layout="@layout/activity_shelter" />
+    <activity
+        android:id="@+id/locationListActivity"
+        android:name="com.example.alaska_x_aceh_x_byuh_androidapp.Map.LocationListActivity"
+        android:label="activity_location_list"
+        tools:layout="@layout/activity_location_list" />
 </navigation>
