@@ -38,6 +38,8 @@
         <entry key="app/src/main/res/drawable/main_splash_screen.xml" value="0.2065" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25748502994011974" />
         <entry key="app/src/main/res/layout/activity_main_splash_screen.xml" value="0.11343892415364579" />
+        <entry key="app/src/main/res/layout/activity_shelter.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_shelter1.xml" value="0.26553129973234957" />
         <entry key="app/src/main/res/layout/activity_two_one_one.xml" value="0.25" />
         <entry key="app/src/main/res/layout/button_layout.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.14387031408308004" />
