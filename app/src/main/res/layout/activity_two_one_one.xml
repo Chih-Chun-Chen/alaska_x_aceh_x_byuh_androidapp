@@ -63,7 +63,7 @@
 
     <!-- Call Now Button -->
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_call_now"
         android:layout_width="328dp"
         android:layout_height="104dp"
         android:background="#EB921A"
