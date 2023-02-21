@@ -50,6 +50,8 @@
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1025" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1025" />
       </map>
     </option>
   </component>
