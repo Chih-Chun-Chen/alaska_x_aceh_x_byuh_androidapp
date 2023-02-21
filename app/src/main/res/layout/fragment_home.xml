@@ -12,6 +12,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/my_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/my_icon"
+            android:layout_gravity="top|left" />
+
         <Button
             android:id="@+id/Button_Free_Food"
             android:layout_width="328dp"
