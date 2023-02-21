@@ -21,5 +21,4 @@
         android:icon="@drawable/profile_icon"
         android:title="Profile"
         app:tint="#FFEB921A" />
-
 </menu>

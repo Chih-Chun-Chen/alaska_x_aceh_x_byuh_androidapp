@@ -13,25 +13,35 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/Button_Free_Food"
+            android:layout_width="328dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:text="Find a Free Food Pantry Today in Anchorage"
+            android:drawableStart="@drawable/exclamation_icon"
+            />
+
+        <Button
             android:id="@+id/Button_211"
             android:layout_width="328dp"
             android:layout_height="104dp"
-            android:background="@drawable/home_button_shape"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/home_button_shape"
             android:text="211"
-            android:textSize="35sp"
-            android:textColor="#FF0000" />
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
 
         <Button
             android:id="@+id/button_shelter"
             android:layout_width="328dp"
             android:layout_height="104dp"
-            android:background="@drawable/home_button_shape"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/home_button_shape"
             android:text="Find A shelter"
-            android:textSize="35sp"
-            android:textColor="#00BCD4" />
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
