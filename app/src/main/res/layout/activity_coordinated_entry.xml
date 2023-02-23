@@ -4,28 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home.Two_One_OneActivity">
+    tools:context=".Home.Shelter.CoordinatedEntryActivity">
 
-    <!-- Intro about 2-1-1 -->
     <TextView
-        android:id="@+id/textView_211"
-        android:layout_width="360dp"
-        android:layout_height="120dp"
-        android:text="What is call 2-1-1? \n \nThe 2-1-1 hotline helps residents access shelter, health care, food, and other social services."
+        android:id="@+id/textView_entry_title"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:gravity="left"
+        android:text="What is Coordinated Entry"
         android:textColor="#000000"
         android:textSize="20sp"
-        android:textStyle="italic"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106"
+        app:layout_constraintVertical_bias="0.072"
         tools:ignore="MissingConstraints" />
 
-    <!-- Time Icon -->
+
     <TextView
-        android:id="@+id/textView_timeicon"
+        android:id="@+id/textView_entry_intro"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:gravity="left"
+        android:text="Coordinated entry is an important process through which people experiencing or at risk of experiencing homelessness can access the crisis response system in a streamlined way…\n \n
+When possible, the assessment provides the ability for households to gain access to the best options to address their needs, incorporating participants’ choice, rather than being evaluated for a single program within the system. The most intensive interventions are prioritized for those with the highest needs."
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_entry_timeicon"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:drawableLeft="@drawable/icon_time"
@@ -35,47 +53,45 @@
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintVertical_bias="0.499"
         tools:ignore="MissingConstraints" />
 
-    <!-- Link -->
     <TextView
-        android:id="@+id/textView_link"
+        android:id="@+id/textView__entry_link"
         android:layout_width="300dp"
-        android:layout_height="20dp"
+        android:layout_height="40dp"
         android:autoLink="web"
         android:gravity="left"
-        android:text="More information: https://alaska211.org/"
+        android:text="More information: https://aceh.org/our-work/coordinated-entry/"
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374"
+        app:layout_constraintVertical_bias="0.583"
         tools:ignore="MissingConstraints" />
 
-    <!-- Call Now Button -->
     <Button
-        android:id="@+id/button_call_now"
+        android:id="@+id/button_entry_call_now"
         android:layout_width="328dp"
         android:layout_height="104dp"
         android:background="#EB921A"
         android:text="Call Now"
-        android:textSize="40sp"
         android:textColor="#FFFFFF"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807"
+        app:layout_constraintVertical_bias="0.821"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -43,6 +43,17 @@
             android:textSize="35sp" />
 
         <Button
+            android:id="@+id/Button_Entry"
+            android:layout_width="328dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/home_button_shape"
+            android:text="Coordinated Entry"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <Button
             android:id="@+id/button_shelter"
             android:layout_width="328dp"
             android:layout_height="104dp"

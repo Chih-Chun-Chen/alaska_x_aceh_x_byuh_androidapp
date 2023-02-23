@@ -9,6 +9,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.CoordinatedEntryActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ShelterActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -70,6 +71,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(MainActivity.this,Two_One_OneActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_entry = findViewById(R.id.Button_Entry);
+        button_entry.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this, CoordinatedEntryActivity.class);
                 startActivity(intent);
             }
         });
