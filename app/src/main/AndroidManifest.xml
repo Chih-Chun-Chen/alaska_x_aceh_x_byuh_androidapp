@@ -22,7 +22,7 @@
             android:name=".Map.LocationListActivity"
             android:exported="false" />
         <activity
-            android:name=".Home.Shelter.Shelter1Activity"
+            android:name=".Home.Shelter.SullivanArenaWarmingAreaActivity"
             android:exported="false" />
         <activity
             android:name=".Home.Two_One_OneActivity"

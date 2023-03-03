@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.alaska_x_aceh_x_byuh_androidapp.Home.MainActivity;
-import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Two_One_OneActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 
 public class ShelterActivity extends AppCompatActivity {
@@ -18,12 +16,12 @@ public class ShelterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shelter);
 
-        Button button_shelter1 = findViewById(R.id.ShelterButton1);
+        Button button_shelter1 = findViewById(R.id.Sullivan_Arena_Button);
         button_shelter1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(ShelterActivity.this, Shelter1Activity.class);
+                Intent intent = new Intent(ShelterActivity.this, SullivanArenaWarmingAreaActivity.class);
                 startActivity(intent);
             }
         });

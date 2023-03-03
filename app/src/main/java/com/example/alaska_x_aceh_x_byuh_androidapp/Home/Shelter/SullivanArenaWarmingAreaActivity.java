@@ -7,7 +7,7 @@ import android.webkit.WebView;
 
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 
-public class Shelter1Activity extends AppCompatActivity {
+public class SullivanArenaWarmingAreaActivity extends AppCompatActivity {
 
     private WebView webView;
 

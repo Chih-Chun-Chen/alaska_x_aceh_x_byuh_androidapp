@@ -18,28 +18,5 @@ public class ProfileActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.Profile, fragment)
                 .commit();
-
-
-
-
-
-
-        /**********************************************************************************************************************************************************/
-       /* final EditText nameText = (EditText) findViewById(R.id.editTextTextPersonName);
-        final EditText phoneText = (EditText) findViewById(R.id.editTextPhone);
-        final EditText birthText = (EditText) findViewById(R.id.editTextDate);
-        final EditText locationText = (EditText) findViewById(R.id.editLocation);
-        Button btn = findViewById(R.id.button);
-        DAOPerson dao = new DAOPerson();
-        btn.setOnClickListener(v -> {
-            System.out.println("True");
-            Person p = new Person(nameText.getText().toString(), phoneText.getText().toString(), birthText.getText().toString(), locationText.getText().toString());
-            dao.add(p).addOnSuccessListener(suc -> {
-                Toast.makeText(this, "Record is inserted", Toast.LENGTH_SHORT).show();
-            }).addOnFailureListener(er -> {
-                Toast.makeText(this, "" + er.getMessage(), Toast.LENGTH_SHORT).show();
-            });
-        });*/
-        /**********************************************************************************************************************************************************/
     }
 }
