@@ -72,7 +72,6 @@
                 android:text="Find A shelter"
                 android:textSize="35sp"
                 android:textColor="#FFFFFF" />
-
         </LinearLayout>
     </ScrollView>
 

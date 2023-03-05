@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,19 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".Home.Shelter.ShelterActivity">
 
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
     <!-- Sullivan Arena Warming Area -->
+
+    <!-- SA: McKinnel House -->
+
     <ImageView
         android:id="@+id/Sullivan_Arena_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -31,18 +39,18 @@
         android:text="Sullivan Arena Warming Area"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintTop_toBottomOf="@+id/Sullivan_Arena_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-    <!-- SA: McKinnel House -->
     <ImageView
         android:id="@+id/SA_McKinnel_House_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,7 +58,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -65,58 +73,69 @@
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintTop_toBottomOf="@+id/SA_McKinnel_House_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-
     <!-- Gospel Rescue Mission Shelter -->
+
+    <!-- Downtown Hope Center -->
+
+    <!-- Complex Care Shelter -->
+
+    <!-- CSS: Clare House -->
+
     <ImageView
         android:id="@+id/Gospel_Rescue_Mission_Shelter_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356"
+        app:layout_constraintTop_toBottomOf="@id/Sullivan_Arena_Button"
+        app:layout_constraintVertical_bias="0.013"
         tools:ignore="MissingConstraints" />
+
+    <!-- CSS: Brother Francis Shelter -->
+
+    <!-- CH: Youth Engagement Center -->
 
     <Button
         android:id="@+id/Gospel_Rescue_Mission_Shelter_Button"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
         android:background="#EB921A"
         android:drawablePadding="5dp"
         android:text="SA: McKinnel House"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Gospel_Rescue_Mission_Shelter_ImageView"
+        app:layout_constraintVertical_bias="0.003"
         tools:ignore="MissingConstraints" />
 
-    <!-- Downtown Hope Center -->
     <ImageView
         android:id="@+id/Downtown_Hope_Center_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356"
+        app:layout_constraintTop_toTopOf="@id/SA_McKinnel_House_Button"
+        app:layout_constraintVertical_bias="0.092"
         tools:ignore="MissingConstraints" />
 
-    <!-- Complex Care Shelter -->
     <Button
         android:id="@+id/Downtown_Hope_Center_Button"
         android:layout_width="150dp"
@@ -129,53 +148,58 @@
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446"
+        app:layout_constraintTop_toTopOf="@id/Downtown_Hope_Center_ImageView"
+        app:layout_constraintVertical_bias="0.137"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/Complex_Care_Shelter_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612"
+        app:layout_constraintTop_toBottomOf="@id/Gospel_Rescue_Mission_Shelter_Button"
+        app:layout_constraintVertical_bias="0.015"
         tools:ignore="MissingConstraints" />
+
+    <!-- CH: MACK House -->
 
     <Button
         android:id="@+id/Complex_Care_Shelter_Button"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:background="#EB921A"
         android:drawablePadding="5dp"
         android:text="Complex Care Shelter"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Complex_Care_Shelter_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-    <!-- CSS: Clare House -->
     <ImageView
         android:id="@+id/CSS_Clare_House_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612"
+        app:layout_constraintTop_toTopOf="@id/Downtown_Hope_Center_Button"
+        app:layout_constraintVertical_bias="0.131"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -190,43 +214,41 @@
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691"
+        app:layout_constraintTop_toBottomOf="@+id/CSS_Clare_House_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
-
-    <!-- CSS: Brother Francis Shelter -->
 
     <ImageView
         android:id="@+id/CSS_Brother_Francis_Shelter_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867"
+        app:layout_constraintTop_toBottomOf="@id/Complex_Care_Shelter_Button"
+        app:layout_constraintVertical_bias="0.097"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/CSS_Brother_Francis_Shelter_Button"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
         android:background="#EB921A"
         android:drawablePadding="5dp"
         android:text="Brother Francis Shelter"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931"
+        app:layout_constraintTop_toTopOf="@id/CSS_Brother_Francis_Shelter_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
-
-    <!-- CH: Youth Engagement Center -->
 
     <ImageView
         android:id="@+id/CH_Youth_Engagement_Center_ImageView"
@@ -238,8 +260,8 @@
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867"
+        app:layout_constraintTop_toBottomOf="@+id/CSS_Clare_House__Button"
+        app:layout_constraintVertical_bias="0.188"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -254,40 +276,39 @@
         app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931"
+        app:layout_constraintTop_toBottomOf="@+id/CH_Youth_Engagement_Center_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
-
-    <!-- CH: MACK House -->
 
     <ImageView
         android:id="@+id/CH_MACK_House_ImageView"
         android:layout_width="150dp"
         android:layout_height="83dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="2dp"
         android:src="@drawable/hospital"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintBottom_toTopOf="@+id/CH_MACK_House_Button"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837"
+        app:layout_constraintTop_toBottomOf="@+id/CSS_Brother_Francis_Shelter_Button"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/CH_MACK_House_Button"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:background="#EB921A"
         android:drawablePadding="5dp"
         android:text="Brother Francis Shelter"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931"
+        app:layout_constraintTop_toBottomOf="@+id/CH_MACK_House_ImageView"
         tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
