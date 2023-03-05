@@ -261,7 +261,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/CSS_Clare_House__Button"
-            app:layout_constraintVertical_bias="0.085"
+            app:layout_constraintVertical_bias="0.106"
             tools:ignore="MissingConstraints" />
 
         <Button
@@ -302,11 +302,11 @@
             android:text="MACK House"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintHorizontal_bias="0.122"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/CH_MACK_House_ImageView"
-            app:layout_constraintVertical_bias="0.016"
+            app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints" />
 
         <ImageView
@@ -320,7 +320,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/CH_Youth_Engagement_Center_Button"
-            app:layout_constraintVertical_bias="0.196"
+            app:layout_constraintVertical_bias="0.154"
             tools:ignore="MissingConstraints" />
 
         <Button
