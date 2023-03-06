@@ -52,7 +52,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589"
+        app:layout_constraintVertical_bias="0.523"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -70,7 +70,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674"
+        app:layout_constraintVertical_bias="0.58"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -88,7 +88,42 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751"
+        app:layout_constraintVertical_bias="0.637"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_CH_MACK_House_information"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/exclamation_icon_shelter"
+        android:gravity="center"
+        android:text="755 A Street, Anchorage, AK 99501"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Link_Button_CH_MACK_House"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/home_button_shape"
+        android:text="Go to WEBSITE"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
