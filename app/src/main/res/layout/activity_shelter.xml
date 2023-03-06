@@ -108,16 +108,16 @@
             android:id="@+id/Gospel_Rescue_Mission_Shelter_Button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
             android:background="#EB921A"
             android:drawablePadding="5dp"
             android:text="Gospel Rescue Mission Shelter"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Gospel_Rescue_Mission_Shelter_ImageView"
-            app:layout_constraintVertical_bias="0.003"
+            app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints" />
 
         <ImageView
@@ -172,7 +172,6 @@
             android:id="@+id/Complex_Care_Shelter_Button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
             android:background="#EB921A"
             android:drawablePadding="5dp"
             android:text="Complex Care Shelter"
@@ -181,7 +180,6 @@
             app:layout_constraintHorizontal_bias="0.13"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/Complex_Care_Shelter_ImageView"
             app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints" />
@@ -346,6 +344,7 @@
             android:layout_marginTop="48dp"
             android:src="@drawable/hospital"
             android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/AWAIC_Button"
             app:layout_constraintHorizontal_bias="0.13"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
