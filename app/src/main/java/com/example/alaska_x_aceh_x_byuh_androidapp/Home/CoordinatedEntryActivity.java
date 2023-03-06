@@ -1,4 +1,4 @@
-package com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter;
+package com.example.alaska_x_aceh_x_byuh_androidapp.Home;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Two_One_OneActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 
 public class CoordinatedEntryActivity extends AppCompatActivity {

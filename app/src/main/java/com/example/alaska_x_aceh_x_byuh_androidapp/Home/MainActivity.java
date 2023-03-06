@@ -9,9 +9,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.CoordinatedEntryActivity;
-import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ShelterActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
+import com.example.alaska_x_aceh_x_byuh_androidapp.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,7 +19,6 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import com.example.alaska_x_aceh_x_byuh_androidapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
