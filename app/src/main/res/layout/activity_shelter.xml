@@ -196,7 +196,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@id/Downtown_Hope_Center_Button"
-            app:layout_constraintVertical_bias="0.086"
+            app:layout_constraintVertical_bias="0.094"
             tools:ignore="MissingConstraints" />
 
         <Button
@@ -259,7 +259,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/CSS_Clare_House__Button"
-            app:layout_constraintVertical_bias="0.106"
+            app:layout_constraintVertical_bias="0.087"
             tools:ignore="MissingConstraints" />
 
         <Button
@@ -318,7 +318,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/CH_Youth_Engagement_Center_Button"
-            app:layout_constraintVertical_bias="0.154"
+            app:layout_constraintVertical_bias="0.181"
             tools:ignore="MissingConstraints" />
 
         <Button
