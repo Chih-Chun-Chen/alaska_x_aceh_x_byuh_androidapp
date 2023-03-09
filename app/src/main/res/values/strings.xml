@@ -3,6 +3,22 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <!-- Home -->
+    <string name="home_food_button">Find a Free Food Pantry Today in Anchorage</string>
+    <string name="home_211_button">211</string>
+    <string name="home_Entry_button">Coordinated Entry</string>
+    <string name="home_shelter_button">Find A shelter</string>
+
+    <!-- Home.211 -->
+    <string name="home_211_information">What is call 2-1-1? \n \nThe 2-1-1 hotline helps residents access shelter, health care, food, and other social services.</string>
+    <string name="home_211_time">Monday – Friday 8:30 a.m. – 5:30 p.m.</string>
+    <string name="home_211_link">More information: https://alaska211.org/</string>
+    <string name="home_211_call_now_button">Call Now</string>
+
+    <!-- Home.CoordinatedEntry  -->
+    <string name="home_Entry_title">What is Coordinated Entry</string>
+    <string name="home_Entry_time">Monday – Friday 8:30 a.m. – 5:30 p.m.</string>
+    <string name="home_Entry_link">More information: https://aceh.org/our-work/coordinated-entry/</string>
+    <string name="home_Entry_call">Call Now</string>
 </resources>

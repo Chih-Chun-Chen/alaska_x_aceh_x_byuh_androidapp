@@ -34,7 +34,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/home_button_shape"
-                android:text="Find a Free Food Pantry Today in Anchorage"
+                android:text="@string/home_food_button"
                 android:textSize="20sp"
                 android:drawableStart="@drawable/exclamation_icon"
                 android:paddingStart="10dp"
@@ -47,7 +47,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/home_button_shape"
-                android:text="211"
+                android:text="@string/home_211_button"
                 android:textSize="35sp"
                 android:textColor="#FFFFFF" />
 
@@ -58,7 +58,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/home_button_shape"
-                android:text="Coordinated Entry"
+                android:text="@string/home_Entry_button"
                 android:textSize="35sp"
                 android:textColor="#FFFFFF" />
 
@@ -69,7 +69,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/home_button_shape"
-                android:text="Find A shelter"
+                android:text="@string/home_shelter_button"
                 android:textSize="35sp"
                 android:textColor="#FFFFFF" />
         </LinearLayout>

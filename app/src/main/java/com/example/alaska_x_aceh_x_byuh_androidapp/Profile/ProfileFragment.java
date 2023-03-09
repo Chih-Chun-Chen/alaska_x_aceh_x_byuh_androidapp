@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
-import com.example.alaska_x_aceh_x_byuh_androidapp.databinding.ActivityMainBinding;
+import com.example.alaska_x_aceh_x_byuh_androidapp.databinding.ActivityHomeBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -24,7 +24,7 @@ import com.google.firebase.database.FirebaseDatabase;
  */
 public class ProfileFragment extends Fragment {
 
-    ActivityMainBinding binding;
+    ActivityHomeBinding binding;
     String name, phoneNumber, birth, location;
     FirebaseDatabase db;
     DatabaseReference reference;
@@ -68,7 +68,7 @@ public class ProfileFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityHomeBinding.inflate(getLayoutInflater());
     }
 
     @Override

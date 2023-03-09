@@ -4,13 +4,14 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
-import com.example.alaska_x_aceh_x_byuh_androidapp.databinding.ActivityMainBinding;
+import com.example.alaska_x_aceh_x_byuh_androidapp.databinding.ActivityHomeBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,15 +21,16 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-public class MainActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    private ActivityHomeBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d("Message ", "MainActivity is still running");
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Set the color of the status bar
@@ -68,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MainActivity.this,Two_One_OneActivity.class);
+                Intent intent = new Intent(HomeActivity.this,Two_One_OneActivity.class);
                 startActivity(intent);
             }
         });
@@ -78,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MainActivity.this, CoordinatedEntryActivity.class);
+                Intent intent = new Intent(HomeActivity.this, CoordinatedEntryActivity.class);
                 startActivity(intent);
             }
         });
@@ -88,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MainActivity.this, ShelterActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ShelterActivity.class);
                 startActivity(intent);
             }
         });
