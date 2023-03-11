@@ -11,6 +11,9 @@ import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.AvitorActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.AwaicActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.BrotherFrancisActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ClareHouseActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ComplexCareShelterActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.DowntownHopeCenterActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.GospelRescueMissionShelterActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.MACKhouseActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.SullivanArenaWarmingAreaActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
@@ -80,6 +83,36 @@ public class ShelterActivity extends AppCompatActivity {
 
                 Intent Brother_Francis = new Intent(ShelterActivity.this, BrotherFrancisActivity.class);
                 startActivity(Brother_Francis);
+            }
+        });
+
+        Button button_GospleRescueMissionShelter = findViewById(R.id.Gospel_Rescue_Mission_Shelter_Button);
+        button_GospleRescueMissionShelter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(ShelterActivity.this, GospelRescueMissionShelterActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_DowntownHopeCenter = findViewById(R.id.Downtown_Hope_Center_Button);
+        button_DowntownHopeCenter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(ShelterActivity.this, DowntownHopeCenterActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_ComplexCareShelter = findViewById(R.id.Complex_Care_Shelter_Button);
+        button_ComplexCareShelter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(ShelterActivity.this, ComplexCareShelterActivity.class);
+                startActivity(intent);
             }
         });
     }
