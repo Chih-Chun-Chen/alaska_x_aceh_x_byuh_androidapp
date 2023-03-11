@@ -3,7 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    
+
     <!-- Home -->
     <string name="home_food_button">Find a Free Food Pantry Today in Anchorage</string>
     <string name="home_211_button">211</string>

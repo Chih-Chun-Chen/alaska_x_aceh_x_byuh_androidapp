@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.AvitorActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.AwaicActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.BrotherFrancisActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ClareHouseActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.MACKhouseActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.SullivanArenaWarmingAreaActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
@@ -58,6 +60,26 @@ public class ShelterActivity extends AppCompatActivity {
 
                 Intent awaic = new Intent(ShelterActivity.this, AwaicActivity.class);
                 startActivity(awaic);
+            }
+        });
+
+        Button button_Clare_House = findViewById(R.id.CSS_Clare_House__Button);
+        button_Clare_House.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent Clare_House = new Intent(ShelterActivity.this, ClareHouseActivity.class);
+                startActivity(Clare_House);
+            }
+        });
+
+        Button button_Brother_Francis = findViewById(R.id.CSS_Brother_Francis_Shelter_Button);
+        button_Brother_Francis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent Brother_Francis = new Intent(ShelterActivity.this, BrotherFrancisActivity.class);
+                startActivity(Brother_Francis);
             }
         });
     }

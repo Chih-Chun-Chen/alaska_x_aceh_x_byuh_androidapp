@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.Shelter.BrotherFrancisActivity">
+
+    <ImageView
+        android:id="@+id/Library_ImageView"
+        android:layout_width="330dp"
+        android:layout_height="210dp"
+        android:src="@drawable/byuh"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_Brother_Francis_address"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/icon_map"
+        android:gravity="center"
+        android:text="1021 E 3rd Avenue, Anchorage, Alaska 99501"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_Brother_Francis"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="CSS: Brother Francis Shelter"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_Brother_Francis_phone"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/icon_phone"
+        android:gravity="center"
+        android:text="(907) 277-1731"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView_Brother_Francis_map"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/icon_time"
+        android:gravity="center"
+        android:text="Open 24 hours"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView_Brother_Francis_Information"
+        android:layout_width="340dp"
+        android:layout_height="82dp"
+        android:drawableLeft="@drawable/exclamation_icon_shelter"
+        android:gravity="center"
+        android:text="Brother Francis Shelter in Anchorage provides emergency shelter and supportive programs for homeless individuals with a focus on achieving permanent stability."
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Link_Brother_Francis"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/home_button_shape"
+        android:text="Go to WEBSITE"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
