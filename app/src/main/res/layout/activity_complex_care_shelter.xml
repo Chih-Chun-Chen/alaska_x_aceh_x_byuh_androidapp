@@ -94,10 +94,10 @@
     <TextView
         android:id="@+id/textView_Complex_Care_Shelter_Infoicon"
         android:layout_width="350dp"
-        android:layout_height="30dp"
+        android:layout_height="130dp"
         android:drawableLeft="@drawable/exclamation_icon_shelter"
         android:gravity="center"
-        android:text="Referral only"
+        android:text="Located at 303 West Fireweed Lane in Anchorage, Alaska, the Complex Care facility can serve up to 83 guests at any one time. It provides a private, stable place for guests to stay while they complete assessments and are connected to benefits and resources to support their path toward permanent housing."
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
@@ -106,7 +106,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.696"
+        app:layout_constraintVertical_bias="0.805"
         tools:ignore="MissingConstraints" />
 
     <Button

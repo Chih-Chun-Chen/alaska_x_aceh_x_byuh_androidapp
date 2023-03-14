@@ -113,13 +113,15 @@
 
     <Button
         android:id="@+id/Link_Brother_Francis"
-        android:layout_width="360dp"
-        android:layout_height="80dp"
+        android:layout_width="316dp"
+        android:layout_height="62dp"
         android:layout_gravity="center"
         android:background="@drawable/home_button_shape"
         android:text="Go to WEBSITE"
-        android:textColor="#FFFFFF"
-        android:textSize="35sp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.588"
         app:layout_constraintLeft_toLeftOf="parent"
