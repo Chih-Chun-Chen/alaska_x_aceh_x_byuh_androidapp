@@ -21,4 +21,17 @@
     <string name="home_Entry_time">Monday – Friday 8:30 a.m. – 5:30 p.m.</string>
     <string name="home_Entry_link">More information: https://aceh.org/our-work/coordinated-entry/</string>
     <string name="home_Entry_call">Call Now</string>
+
+    <!-- Home.Shelter -->
+    <string name="home_Shelter_Sullivan_Arena_Warming_Area">Sullivan Arena Warming Area</string>
+    <string name="home_Shelter_McKinnel_House">SA: McKinnel House</string>
+    <string name="home_Shelter_Gospel_Rescue_Mission_Shelter">Gospel Rescue Mission Shelter</string>
+    <string name="home_Shelter_Downtown_Hope_Center">Downtown Hope Center</string>
+    <string name="home_Shelter_Complex_Care_Shelter">Complex Care Shelter</string>
+    <string name="home_Shelter_Clare_House">Clare House</string>
+    <string name="home_Shelter_Brother_Francis_Shelter">Brother Francis Shelter</string>
+    <string name="home_Shelter_Sullivan">Sullivan</string>
+    <string name="home_Shelter_MACK_House">MACK House</string>
+    <string name="home_Shelter_AVITOR">AVITOR</string>
+    <string name="home_Shelter_AWAIC">SHome: AWAIC</string>
 </resources>
