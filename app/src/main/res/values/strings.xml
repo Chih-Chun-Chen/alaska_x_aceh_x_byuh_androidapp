@@ -34,4 +34,36 @@
     <string name="home_Shelter_MACK_House">MACK House</string>
     <string name="home_Shelter_AVITOR">AVITOR</string>
     <string name="home_Shelter_AWAIC">SHome: AWAIC</string>
+
+    <!-- Home.Shelter.Sullivan_Arena_Warming_Area -->
+    <string name="home_Shelter_Sullivan_Arena_Warming_Area_title">Sullivan Arena Warming Area</string>
+    <string name="home_Shelter_Sullivan_Arena_Warming_Area_location">1600 Gambell St., Anchorage, AK 99501</string>
+    <string name="home_Shelter_Sullivan_Arena_Warming_Area_phone">(907) 279-0618</string>
+    <string name="home_Shelter_Sullivan_Arena_Warming_Area_time">Open 24/7</string>
+    <string name="home_Shelter_Sullivan_Arena_Warming_Area_information">Open for anyone who needs protection from the cold weather. Has microwave, hot water and bathrooms.</string>
+    <string name="home_Shelter_Sullivan_Arena_Warming_Area_button">More Information</string>
+
+    <!-- Home.Shelter.Mickinnel_House -->
+    <string name="home_Shelter_Mickinnel_House_title">McKinnell House</string>
+    <string name="home_Mickinnel_House_location">1712 A Street, Anchorage, Alaska 99501</string>
+    <string name="home_Shelter_Mickinnel_House_phone">(800) 725-2769</string>
+    <string name="home_Shelter_Mickinnel_House_time">Family Services Food Pantry: 1:30 PM - 4:30 PM, Tuesday - Friday \n McKinnell House Desk Hours: 8:00 AM - 5:00 PM, Monday - Friday</string>
+    <string name="home_Shelter_Mickinnel_House_information">Offers 24 hours lodging, meals, life skills development, and other services</string>
+    <string name="home_Shelter_Mickinnel_House_button">Go To Website</string>
+
+    <!-- Home.Shelter.Gospel Rescue Mission Shelter -->
+    <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_title">Gospel Rescue Mission Shelter</string>
+    <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_location">2823 E Tudor Rd, Anchorage, AK 99507</string>
+    <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_phone">(907)-563-5603</string>
+    <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_time">Monday – Sunday 6 a.m. – 11 a.m./4 p.m - 6 p.m</string>
+    <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_information">Full shelter program. Length of stay extended to 90 days for current guests and future referrals to assist with current needs. LifeSkills Program may be available, application required. Serving dinner 4:30-6pm nightly, serves breakfast on weekdays from 6-7:15 a.m. and brunch on Sat and Sun. from 10-11 a.m. (Open to non-guests – sober.)</string>
+    <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_button">Go To Website</string>
+
+    <!-- Home.Shelter.Gospel Rescue Mission Shelter -->
+    <string name="home_Shelter_Downtown_Hope_Center_title">Downtown Hope Center</string>
+    <string name="home_Shelter_Downtown_Hope_Center_location">240 East 3rd Avenue Anchorage, AK 99501</string>
+    <string name="home_Shelter_Downtown_Hope_Center_phone">(907)-277-4302</string>
+    <string name="home_Shelter_Downtown_Hope_Center_time">Monday – Friday 8 a.m. – 7 p.m.</string>
+    <string name="home_Shelter_Downtown_Hope_Center_information">8pm curfew for guests that have been checked in previously. Admitting new guests into the shelter after curfew if beds are available.</string>
+    <string name="home_Shelter_Downtown_Hope_Center_button">Go To Website</string>
 </resources>
