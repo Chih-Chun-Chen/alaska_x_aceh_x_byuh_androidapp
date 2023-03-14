@@ -15,6 +15,8 @@ import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.ComplexCareShelt
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.DowntownHopeCenterActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.GospelRescueMissionShelterActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.MACKhouseActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.MickinnelHouseActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.SullivanActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Home.Shelter.SullivanArenaWarmingAreaActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 
@@ -112,6 +114,26 @@ public class ShelterActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(ShelterActivity.this, ComplexCareShelterActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_Sullivan_Arena = findViewById(R.id.CH_Youth_Engagement_Center_Button);
+        button_Sullivan_Arena.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(ShelterActivity.this, SullivanActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button_SA_McKinnel_House = findViewById(R.id.SA_McKinnel_House_Button);
+        button_SA_McKinnel_House.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(ShelterActivity.this, MickinnelHouseActivity.class);
                 startActivity(intent);
             }
         });

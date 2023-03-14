@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home.Shelter.SullivanArenaWarmingAreaActivity">
+    tools:context=".Home.Shelter.MickinnelHouseActivity">
 
     <ImageView
-        android:id="@+id/Sullivan_Arena_WarmingArea_ImageView"
+        android:id="@+id/Mickinnel_House_ImageView"
         android:layout_width="330dp"
         android:layout_height="210dp"
         android:src="@drawable/byuh"
@@ -21,29 +21,29 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea_map"
+        android:id="@+id/textView_Mickinnel_House_map"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:drawableLeft="@drawable/icon_map"
         android:gravity="center"
-        android:text="1600 Gambell St., Anchorage, AK 99501"
+        android:text="1712 A Street, Anchorage, Alaska 99501"
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519"
+        app:layout_constraintVertical_bias="0.499"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea"
+        android:id="@+id/textView_Mickinnel_House"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:gravity="center"
-        android:text="Sullivan Arena Warming Area"
+        android:text="McKinnell House"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -56,12 +56,12 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea_phone"
+        android:id="@+id/textView_Mickinnel_House_phone"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:drawableLeft="@drawable/icon_phone"
         android:gravity="center"
-        android:text="(907) 279-0618"
+        android:text="(800) 725-2769"
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
@@ -70,59 +70,58 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
+        app:layout_constraintVertical_bias="0.57"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea_time"
-        android:layout_width="350dp"
-        android:layout_height="30dp"
+        android:id="@+id/textView_Mickinnel_House_time"
+        android:layout_width="353dp"
+        android:layout_height="94dp"
         android:drawableLeft="@drawable/icon_time"
         android:gravity="center"
-        android:text="Open 24/7"
+        android:text="Family Services Food Pantry: 1:30 PM - 4:30 PM, Tuesday - Friday \n McKinnell House Desk Hours: 8:00 AM - 5:00 PM, Monday - Friday"
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.661"
+        app:layout_constraintVertical_bias="0.69"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/information"
-        android:layout_width="353dp"
-        android:layout_height="71dp"
+        android:id="@+id/textView_timeicon"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
         android:drawableLeft="@drawable/exclamation_icon_shelter"
         android:gravity="center"
-        android:text="Open for anyone who needs protection from the cold weather. Has microwave, hot water and bathrooms."
+        android:text="Offers 24 hours lodging, meals, life skills development, and other services."
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774"
+        app:layout_constraintVertical_bias="0.79"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/Link_Button_Sullivan_Arena_WarmingArea"
+        android:id="@+id/Link_Button_Mickinnel_House"
         android:layout_width="360dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:background="@drawable/home_button_shape"
-        android:text="More Information"
+        android:text="Go To Website"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
+        android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.588"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93"
+        app:layout_constraintVertical_bias="0.929"
         tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

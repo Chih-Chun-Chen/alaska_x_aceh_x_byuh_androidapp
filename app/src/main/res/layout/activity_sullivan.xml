@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home.Shelter.SullivanArenaWarmingAreaActivity">
+    tools:context=".Home.Shelter.SullivanActivity">
 
     <ImageView
-        android:id="@+id/Sullivan_Arena_WarmingArea_ImageView"
+        android:id="@+id/Sullivan_ImageView"
         android:layout_width="330dp"
         android:layout_height="210dp"
         android:src="@drawable/byuh"
@@ -21,7 +21,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea_map"
+        android:id="@+id/textView_Sullivan_map"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:drawableLeft="@drawable/icon_map"
@@ -35,15 +35,15 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.519"
+        app:layout_constraintVertical_bias="0.512"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea"
+        android:id="@+id/Sullivan"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:gravity="center"
-        android:text="Sullivan Arena Warming Area"
+        android:text="Sullivan Arena"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -56,7 +56,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea_phone"
+        android:id="@+id/textView_Sullivan_phone"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:drawableLeft="@drawable/icon_phone"
@@ -70,16 +70,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
+        app:layout_constraintVertical_bias="0.584"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_Sullivan_Arena_WarmingArea_time"
+        android:id="@+id/textView_Sullivan_time"
         android:layout_width="350dp"
         android:layout_height="30dp"
         android:drawableLeft="@drawable/icon_time"
         android:gravity="center"
-        android:text="Open 24/7"
+        android:text="Monday – Friday 12:00 noon – 4:00 p.m."
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
@@ -88,41 +88,41 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.661"
+        app:layout_constraintVertical_bias="0.65"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/information"
+        android:id="@+id/textView_Sullivan_time_information"
         android:layout_width="353dp"
         android:layout_height="71dp"
         android:drawableLeft="@drawable/exclamation_icon_shelter"
         android:gravity="center"
-        android:text="Open for anyone who needs protection from the cold weather. Has microwave, hot water and bathrooms."
+        android:text="Congregate Emergency Shelter. All beds occupied."
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774"
+        app:layout_constraintVertical_bias="0.76"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/Link_Button_Sullivan_Arena_WarmingArea"
+        android:id="@+id/Link_Button_Sullivan"
         android:layout_width="360dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:background="@drawable/home_button_shape"
         android:text="More Information"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
+        android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.588"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93"
+        app:layout_constraintVertical_bias="0.929"
         tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
