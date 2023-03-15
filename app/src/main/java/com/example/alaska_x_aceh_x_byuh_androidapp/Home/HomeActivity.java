@@ -53,46 +53,54 @@ public class HomeActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
 
         Button button_free_food = findViewById(R.id.Button_Free_Food);
-        button_free_food.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Create a new intent with the ACTION_VIEW action
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                // Set the data of the intent to the URL of the website you want to open
-                intent.setData(Uri.parse("https://anchoragefood.org/"));
-                // Launch the web browser
-                startActivity(intent);
-            }
-        });
+        if (button_free_food != null) {
+            button_free_food.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Create a new intent with the ACTION_VIEW action
+                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                    // Set the data of the intent to the URL of the website you want to open
+                    intent.setData(Uri.parse("https://anchoragefood.org/"));
+                    // Launch the web browser
+                    startActivity(intent);
+                }
+            });
+        }
 
         Button button_211 = findViewById(R.id.Button_211);
-        button_211.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        if (button_211 != null) {
+            button_211.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                Intent intent = new Intent(HomeActivity.this,Two_One_OneActivity.class);
-                startActivity(intent);
-            }
-        });
+                    Intent intent = new Intent(HomeActivity.this,Two_One_OneActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
 
         Button button_entry = findViewById(R.id.Button_Entry);
-        button_entry.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        if (button_entry != null) {
+            button_entry.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                Intent intent = new Intent(HomeActivity.this, CoordinatedEntryActivity.class);
-                startActivity(intent);
-            }
-        });
+                    Intent intent = new Intent(HomeActivity.this, CoordinatedEntryActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
 
         Button button_shelter = findViewById(R.id.button_shelter);
-        button_shelter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        if (button_shelter != null) {
+            button_shelter.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                Intent intent = new Intent(HomeActivity.this, ShelterActivity.class);
-                startActivity(intent);
-            }
-        });
+                    Intent intent = new Intent(HomeActivity.this, ShelterActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 }
