@@ -83,4 +83,43 @@
     <string name="home_Shelter_ClareHouse_information">Clare House offers emergency shelter and case management services to homeless mothers and children, helping them achieve permanent stability.</string>
     <string name="home_Shelter_ClareHouse_button">Go to WEBSITE</string>
 
+    <!-- Home.Shelter.BrotherFrancis -->
+    <string name="home_Shelter_CBrother_Francis_title">CSS: Brother Francis Shelter</string>
+    <string name="home_Shelter_CBrother_Francis_location">1021 E 3rd Avenue, Anchorage, Alaska 99501</string>
+    <string name="home_Shelter_CBrother_Francis_phone">(907) 277-1731</string>
+    <string name="home_Shelter_CBrother_Francis_time">Open 24 hours</string>
+    <string name="home_Shelter_CBrother_Francis_information">Brother Francis Shelter in Anchorage provides emergency shelter and supportive programs for homeless individuals with a focus on achieving permanent stability</string>
+    <string name="home_Shelter_CBrother_Francis_button">Go to WEBSITE</string>
+
+    <!-- Home.Shelter.Sullivanr -->
+    <string name="home_Shelter_Sullivan_title">Sullivan Arena</string>
+    <string name="home_Shelter_Sullivan_location">1600 Gambell St., Anchorage, AK 99501</string>
+    <string name="home_Shelter_Sullivan_phone">(907) 279-0618</string>
+    <string name="home_Shelter_Sullivan_time">Monday – Friday 12:00 noon – 4:00 p.m.</string>
+    <string name="home_Shelter_Sullivan_information">Congregate Emergency Shelter. All beds occupied</string>
+    <string name="home_Shelter_Sullivan_button">More Information</string>
+
+    <!-- Home.Shelter.MACK_House -->
+    <string name="home_Shelter_MACK_House_title">CH: MACK House</string>
+    <string name="home_Shelter_MACK_House_location">755 A Street, Anchorage, AK 99501</string>
+    <string name="home_Shelter_MACK_House_phone">(907)-272-1255</string>
+    <string name="home_Shelter_MACK_House_time">Monday – Friday 8:30 a.m. – 5:30 p.m.</string>
+    <string name="home_Shelter_MACK_House_information">Covenant House Alaska is the largest provider of services to homeless and runaway youth in the state of Alaska. The goal of our services is to move a youth from homelessness to stability</string>
+    <string name="home_Shelter_MACK_House_button">Go to WEBSITE</string>
+
+    <!-- Home.Shelter.Avitor -->
+    <string name="home_Shelter_Avitor_title">AVITOR</string>
+    <string name="home_Shelter_Avitor_location">5011 Spenard Rd., Suite 205, Anchorage, AK 99517</string>
+    <string name="home_Shelter_Avitor_phone">(907)-245-4359</string>
+    <string name="home_Shelter_Avitor_time">Monday – Friday 8:30 a.m. – 5:30 p.m.</string>
+    <string name="home_Shelter_Avitor_information">To receive more information, please press the button down below</string>
+    <string name="home_Shelter_Avitor_button">More Information</string>
+
+    <!-- Home.Shelter.AWAIC -->
+    <string name="home_Shelter_AWAIC_title">AWAIC</string>
+    <string name="home_Shelter_AWAIC_location">100 W 13th Ave, Anchorage, AK 99501</string>
+    <string name="home_Shelter_AWAIC_phone">(907) 279-9581</string>
+    <string name="home_Shelter_AWAIC_time">Monday – Friday 8:30 a.m. – 5:30 p.m.</string>
+    <string name="home_Shelter_AWAIC_information">AWAIC’s mission is to provide domestic violence safe shelter, intervention, and prevention. Our core values are advocacy, compassion, dignity, and collaboration</string>
+    <string name="home_Shelter_AWAIC_button">Go to WEBSITE</string>
 </resources>
