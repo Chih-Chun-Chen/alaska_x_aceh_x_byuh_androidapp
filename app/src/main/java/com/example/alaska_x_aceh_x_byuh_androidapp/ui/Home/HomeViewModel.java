@@ -1,4 +1,4 @@
-package com.example.alaska_x_aceh_x_byuh_androidapp.ui.home;
+package com.example.alaska_x_aceh_x_byuh_androidapp.ui.Home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
