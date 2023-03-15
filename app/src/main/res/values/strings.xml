@@ -59,11 +59,28 @@
     <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_information">Full shelter program. Length of stay extended to 90 days for current guests and future referrals to assist with current needs. LifeSkills Program may be available, application required. Serving dinner 4:30-6pm nightly, serves breakfast on weekdays from 6-7:15 a.m. and brunch on Sat and Sun. from 10-11 a.m. (Open to non-guests – sober.)</string>
     <string name="home_Shelter_Gospel_Rescue_Mission_Shelter_button">Go To Website</string>
 
-    <!-- Home.Shelter.Gospel Rescue Mission Shelter -->
+    <!-- Home.Shelter.Downtown_Hope_Center -->
     <string name="home_Shelter_Downtown_Hope_Center_title">Downtown Hope Center</string>
     <string name="home_Shelter_Downtown_Hope_Center_location">240 East 3rd Avenue Anchorage, AK 99501</string>
     <string name="home_Shelter_Downtown_Hope_Center_phone">(907)-277-4302</string>
     <string name="home_Shelter_Downtown_Hope_Center_time">Monday – Friday 8 a.m. – 7 p.m.</string>
     <string name="home_Shelter_Downtown_Hope_Center_information">8pm curfew for guests that have been checked in previously. Admitting new guests into the shelter after curfew if beds are available.</string>
     <string name="home_Shelter_Downtown_Hope_Center_button">Go To Website</string>
+
+    <!-- Home.Shelter.Complex Care Shelter -->
+    <string name="home_Shelter_Complex_Care_Shelter_title">Complex Care Shelter</string>
+    <string name="home_Shelter_Complex_Care_Shelter_location">303 West Fireweed Lane in Anchorage, Alaska</string>
+    <string name="home_Shelter_Complex_Care_Shelter_phone">(907)-764-1371</string>
+    <string name="home_Shelter_Complex_Care_Shelter_time">By appointment</string>
+    <string name="home_Shelter_Complex_Care_Shelter_information">Located at 303 West Fireweed Lane in Anchorage, Alaska, the Complex Care facility can serve up to 83 guests at any one time. It provides a private, stable place for guests to stay while they complete assessments and are connected to benefits and resources to support their path toward permanent housing</string>
+    <string name="home_Shelter_Complex_Care_Shelter_button">Go to website</string>
+
+    <!-- Home.Shelter.ClareHouse -->
+    <string name="home_Shelter_ClareHouse_title">CSS: Clare House</string>
+    <string name="home_Shelter_ClareHouse_location">4110 Spenard Road, Anchorage, AK 99517</string>
+    <string name="home_Shelter_ClareHouse_phone">(907) 563-4545</string>
+    <string name="home_Shelter_ClareHouse_time">Open 24 hours</string>
+    <string name="home_Shelter_ClareHouse_information">Clare House offers emergency shelter and case management services to homeless mothers and children, helping them achieve permanent stability.</string>
+    <string name="home_Shelter_ClareHouse_button">Go to WEBSITE</string>
+
 </resources>
