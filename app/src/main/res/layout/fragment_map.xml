@@ -25,6 +25,8 @@
         app:layout_constraintVertical_bias="0.109"
         tools:ignore="MissingConstraints" />
 
+    <!-- Library Button -->
+
     <Button
         android:id="@+id/HospitalButton"
         android:layout_width="150dp"
@@ -38,11 +40,10 @@
         app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212"
+        app:layout_constraintTop_toBottomOf="@+id/Hospital_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-    <!-- Library Button -->
     <ImageView
         android:id="@+id/Library_ImageView"
         android:layout_width="150dp"
@@ -57,6 +58,8 @@
         app:layout_constraintVertical_bias="0.109"
         tools:ignore="MissingConstraints" />
 
+    <!-- Transportation Button -->
+
     <Button
         android:id="@+id/LibraryButton"
         android:layout_width="150dp"
@@ -64,17 +67,18 @@
         android:background="#EB921A"
         android:drawablePadding="5dp"
         android:text="Library"
-        android:textSize="25sp"
         android:textColor="#FFFFFF"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212"
+        app:layout_constraintTop_toBottomOf="@+id/Library_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
-    <!-- Transportation Button -->
+    <!-- Park Button -->
+
     <ImageView
         android:id="@+id/Transportation_ImageView"
         android:layout_width="150dp"
@@ -85,11 +89,9 @@
         app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
+        app:layout_constraintTop_toBottomOf="@+id/HospitalButton"
+        app:layout_constraintVertical_bias="0.116"
         tools:ignore="MissingConstraints" />
-
-    <!-- Park Button -->
 
     <Button
         android:id="@+id/TransportationButton"
@@ -104,8 +106,8 @@
         app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484"
+        app:layout_constraintTop_toBottomOf="@+id/Transportation_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -118,8 +120,8 @@
         app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
+        app:layout_constraintTop_toBottomOf="@+id/LibraryButton"
+        app:layout_constraintVertical_bias="0.118"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -129,13 +131,13 @@
         android:background="#EB921A"
         android:drawablePadding="5dp"
         android:text="Park"
-        android:textSize="25sp"
         android:textColor="#FFFFFF"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484"
+        app:layout_constraintTop_toBottomOf="@+id/Park_ImageView"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
