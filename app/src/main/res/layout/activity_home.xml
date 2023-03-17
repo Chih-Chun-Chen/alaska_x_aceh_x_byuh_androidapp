@@ -24,14 +24,14 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="#EB921A"> <!-- set your desired background color here -->
+            android:layout_height="60dp"
+            android:background="#EB921A">
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/aceh_logo_small" />
+                app:srcCompat="@drawable/aceh_logo_black" />
         </FrameLayout>
 
 
