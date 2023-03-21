@@ -122,4 +122,24 @@
     <string name="home_Shelter_AWAIC_time">Monday – Friday 8:30 a.m. – 5:30 p.m.</string>
     <string name="home_Shelter_AWAIC_information">AWAIC’s mission is to provide domestic violence safe shelter, intervention, and prevention. Our core values are advocacy, compassion, dignity, and collaboration</string>
     <string name="home_Shelter_AWAIC_button">Go to WEBSITE</string>
+
+
+    <!-- Transportation -->
+    <string name="home_transpo_intro">How to ride People Mover?</string>
+    <string name="home_transpo_information">・Half Fare eligibility includes Seniors age 60 or over, Youth ages 5-18, Veterans, Medicare Card Holders, AnchorRIDES Paratransit eligibility, and individuals with a qualifying disability.
+    \n ・For those with a disability which affects their ability to ride the bus, a People Mover Half Fare ID Card must be obtained.
+    \n ・Proof of eligibility is required at each boarding.
+    \n ・Children age 4 and under ride free with a fare paying adult.
+    \n ・Fares may be purchased on the bus.
+    </string>
+    <string name="home_price">Adults: Cash|$2.00 ; Day Pass|$5.00</string>
+
+    <!-- Others -->
+    <string name="home_others_intro">Career Development</string>
+    <string name="home_others_information">Employers and recruiters congregate in one location to provide you with information and the chance to work for their prestigious organization. Also, you have free access to a network and make relationships with businesses and job seekers. Find out about job fairs in your area if you are seeking employment prospects.
+    \n ・Free career and life skills trainings.
+    \n ・Job fairs near you.
+    \n ・Recruitment events.
+    \n ・Other helpful seminars/webinars.
+    </string>
 </resources>

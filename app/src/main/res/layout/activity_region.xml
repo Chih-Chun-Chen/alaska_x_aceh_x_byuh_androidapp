@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map.List.Hospital.RegionActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/RegionalH_ImageView"
+        android:layout_width="330dp"
+        android:layout_height="210dp"
+        android:src="@drawable/byuh"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_Regional_Hospital"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Alaska Regional Hospital"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_Regional_Hospital_address"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:drawableLeft="@drawable/icon_map"
+        android:gravity="left"
+        android:text="2801 DeBarr Rd.Anchorage, \nAK 99508\n https://www.alaskaregional.com/"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:onClick="openLink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <TextView
+        android:id="@+id/textView_Regional_Hospital_phone"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/icon_phone"
+        android:gravity="center"
+        android:text="(907) 276-1131"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.700"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_Regional_Hospital_time"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/icon_time"
+        android:gravity="center"
+        android:text="Open 24 hours"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.800"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

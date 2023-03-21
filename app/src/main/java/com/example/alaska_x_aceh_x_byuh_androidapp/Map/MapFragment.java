@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.LocationListActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.TransporationListActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 
 /**
@@ -70,6 +72,15 @@ public class MapFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), LocationListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button transportation = (Button) view.findViewById(R.id.TransportationButton);
+        transportation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), TransporationListActivity.class);
                 startActivity(intent);
             }
         });
