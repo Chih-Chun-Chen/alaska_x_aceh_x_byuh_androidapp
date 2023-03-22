@@ -16,27 +16,37 @@
         android:theme="@style/Theme.Alaska_X_ACEH_X_BYUH_AndroidApp"
         tools:targetApi="31">
         <activity
-            android:name=".Mounatin_ViewActivity"
-            android:exported="false" />
+            android:name=".Map.List.Other.CareerDevelopmentActivity"
+            android:exported="false"
+            android:theme="@style/statusBar"/>
         <activity
-            android:name=".ZJ_LoussacActivity"
-            android:exported="false" />
+            android:name=".Map.List.Library.Mounatin_ViewActivity"
+            android:exported="false"
+            android:theme="@style/statusBar" />
         <activity
-            android:name=".ProvidenceActivity"
-            android:exported="false" />
+            android:name=".Map.List.Library.ZJ_LoussacActivity"
+            android:exported="false"
+            android:theme="@style/statusBar" />
         <activity
-            android:name=".Native_NMedical_Center"
-            android:exported="false" />
+            android:name=".Map.List.Hospital.ProvidenceActivity"
+            android:exported="false"
+            android:theme="@style/statusBar" />
+        <activity
+            android:name=".Map.List.Hospital.Native_Medical_Center"
+            android:exported="false"
+            android:theme="@style/statusBar" />
         <activity
             android:name=".Map.List.Hospital.RegionActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/statusBar" />
         <activity
             android:name=".Map.List.TransporationListActivity"
             android:exported="false"
             android:theme="@style/statusBar" />
         <activity
             android:name=".Map.List.LibraryListActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/statusBar" />
         <activity
             android:name=".Home.Shelter.SullivanActivity"
             android:exported="false"
@@ -79,7 +89,7 @@
             android:exported="false"
             android:theme="@style/statusBar" />
         <activity
-            android:name=".Map.List.LocationListActivity"
+            android:name=".Map.List.HospitalListActivity"
             android:exported="false"
             android:theme="@style/statusBar" />
         <activity

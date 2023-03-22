@@ -27,7 +27,7 @@
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
         <Button
-            android:id="@+id/Aleska_Regional_Hospital_FramLayout"
+            android:id="@+id/Loussac_Library_FramLayout"
             android:layout_width="212dp"
             android:layout_height="match_parent"
             android:layout_gravity="end"
@@ -57,7 +57,7 @@
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
         <Button
-            android:id="@+id/Providence_Alaska_FramLayout"
+            android:id="@+id/MT_View_Library_FramLayout"
             android:layout_width="212dp"
             android:layout_height="match_parent"
             android:layout_gravity="end"

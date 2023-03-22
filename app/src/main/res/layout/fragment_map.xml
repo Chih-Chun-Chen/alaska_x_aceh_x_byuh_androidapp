@@ -125,7 +125,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/ParkButton"
+        android:id="@+id/OtherButton"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="#EB921A"

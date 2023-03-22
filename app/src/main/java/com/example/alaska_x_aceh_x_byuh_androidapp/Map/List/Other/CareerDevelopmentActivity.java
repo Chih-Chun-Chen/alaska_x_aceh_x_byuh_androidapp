@@ -1,4 +1,4 @@
-package com.example.alaska_x_aceh_x_byuh_androidapp.Map.List;
+package com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.Other;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,21 +10,21 @@ import android.widget.Button;
 
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 
-public class TransporationListActivity extends AppCompatActivity {
+public class CareerDevelopmentActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_transporation_list);
+        setContentView(R.layout.activity_career_development);
 
-        Button Learn_Button = findViewById(R.id.button_learn_more);
-        Learn_Button.setOnClickListener(new View.OnClickListener() {
+        Button Career_Development_Button = findViewById(R.id.button__career_development_learn_more);
+        Career_Development_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Create a new intent with the ACTION_VIEW action
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 // Set the data of the intent to the URL of the website you want to open
-                intent.setData(Uri.parse("https://www.muni.org/Departments/transit/PeopleMover/pages/mapsandstops.aspx"));
+                intent.setData(Uri.parse("https://allevents.in/anchorage/job-fairs"));
                 // Launch the web browser
                 startActivity(intent);
             }

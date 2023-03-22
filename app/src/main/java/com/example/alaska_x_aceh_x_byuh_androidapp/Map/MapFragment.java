@@ -10,7 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.LocationListActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.HospitalListActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.LibraryListActivity;
+import com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.Other.CareerDevelopmentActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.Map.List.TransporationListActivity;
 import com.example.alaska_x_aceh_x_byuh_androidapp.R;
 
@@ -71,7 +73,7 @@ public class MapFragment extends Fragment {
         btnOpenActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), LocationListActivity.class);
+                Intent intent = new Intent(getActivity(), HospitalListActivity.class);
                 startActivity(intent);
             }
         });
@@ -81,6 +83,24 @@ public class MapFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), TransporationListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button library = (Button) view.findViewById(R.id.LibraryButton);
+        library.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), LibraryListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button Other = (Button) view.findViewById(R.id.OtherButton);
+        Other.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), CareerDevelopmentActivity.class);
                 startActivity(intent);
             }
         });
