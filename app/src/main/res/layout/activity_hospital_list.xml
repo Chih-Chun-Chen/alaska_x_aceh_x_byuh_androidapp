@@ -22,7 +22,7 @@
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/hospital"
+            android:src="@drawable/hospital1"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
         <Button
@@ -52,7 +52,7 @@
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/hospital"
+            android:src="@drawable/hospital2"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
         <Button
@@ -82,7 +82,7 @@
         <ImageButton
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/hospital"
+            android:src="@drawable/hospital3"
             tools:ignore="MissingConstraints" />
 
         <Button

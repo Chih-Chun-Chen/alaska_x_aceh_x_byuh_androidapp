@@ -10,7 +10,7 @@
         android:id="@+id/Mountain_ImageView"
         android:layout_width="330dp"
         android:layout_height="210dp"
-        android:src="@drawable/byuh"
+        android:src="@drawable/library2_1"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
@@ -18,6 +18,21 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.143"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="Courtesy of https://www.google.com/maps"
+        android:textColor="#000000"
+        android:textSize="9sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389"
         tools:ignore="MissingConstraints" />
 
     <TextView
